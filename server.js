@@ -92,7 +92,7 @@ app.post('/', upload.single('file-to-upload'), (req,res ) => {
             if (err){
                  console.log("failed to delete:" + err);
             }else {
-                 console.log("delete the image: ");
+                 console.log("delete the image:   ");
              }
          });
     });
