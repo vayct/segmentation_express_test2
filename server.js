@@ -2,12 +2,13 @@ const express = require('express');
 const bodyParser = require('body-parser');
 const crypto = require('crypto');
 const multer = require('multer');
+const path = require('path');
 const fs = require('fs-extra');
 
 
 let storage = multer.diskStorage({
     destination: function (req, file, cb) {
-        cb(null, 'tmp/')
+        cb(null, 'client/public/tmp/')
     },
     filename: function (req, file, cb) {
 
@@ -37,6 +38,7 @@ const upload = multer({storage: storage});
 const app = express();
 const port = process.env.PORT || 5000;
 
+
 //to support JSON-encoded bodies
 app.use(bodyParser.json());
 
@@ -56,17 +58,17 @@ app.post('/api/world', (req, res) => {
 app.get('/', (req,res) => {
    res.sendFile('/index.html');
 });
-app.post('/', upload.single('file-to-upload'), (req,res ) => {
+app.post('/', upload.single('selectedFile'), (req,res ) => {
     console.log(req.file.filename);
-
+    console.log(req.body.description);
 
 
     const {spawn} =require('child_process');
     //let program ='python segmentation/testProgram/colorsClassification.py';
     let program ='python segmentation/testProgram/v.py';
-    let inputPath = 'tmp/' + req.file.filename;
+    let inputPath = 'client/public/tmp/' + req.file.filename;
 
-    let result = spawn(program, [inputPath], {
+    let result = spawn(program, [], {
         shell: true
     });
 
@@ -86,9 +88,12 @@ app.post('/', upload.single('file-to-upload'), (req,res ) => {
             console.log('Exit with code' + code);
         }
 
+        //TODO should send array of image resources
+        //res.send("FIle uploaded");
+        res.send({ newImg: './tmp/thisisfine.jpg'});
 
         //delete the image in the tmp folder
-        fs.unlink('tmp/' + req.file.filename, (err) => {
+        fs.unlink('client/public/tmp/' + req.file.filename, (err) => {
             if (err){
                  console.log("failed to delete:" + err);
             }else {
@@ -96,12 +101,7 @@ app.post('/', upload.single('file-to-upload'), (req,res ) => {
              }
          });
     });
-
-
-
-
-
-    res.redirect('/');
+ //   res.redirect('/');
 });
 
 
