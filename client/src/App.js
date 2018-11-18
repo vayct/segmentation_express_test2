@@ -1,9 +1,21 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
+import UserForm from './components/UserForm';
 import './App.css';
 
+class App extends Component{
+    render(){
+        return (
+            <div className="App">
+                <h1>File Upload</h1>
+                <UserForm />
+            </div>
+        )
+    }
+}
+
+/*
 class App extends Component {
-  state = {
+ state = {
     response: '',
     post: '',
     responseToPost: '',
@@ -31,6 +43,8 @@ class App extends Component {
         const body = await response.text();
         this.setState({ responseToPost: body });
     };
+
+
   render() {
     return (
       <div className="App">
@@ -63,6 +77,7 @@ class App extends Component {
         <p>{this.state.responseToPost}</p>
 
 
+
           <form action="/" encType="multipart/form-data" method="post">
               <input
                   type="file"
@@ -78,6 +93,6 @@ class App extends Component {
       </div>
     );
   }
-}
+}*/
 
 export default App;
