@@ -55,9 +55,12 @@ app.post('/api/world', (req, res) => {
     );
 });
 
+
 app.get('/', (req,res) => {
    res.sendFile('/index.html');
 });
+
+
 app.post('/', upload.single('selectedFile'), (req,res ) => {
     console.log(req.file.filename);
     console.log(req.body.description);

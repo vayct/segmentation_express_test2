@@ -34,6 +34,7 @@ class UserForm extends Component {
 
         axios.post('/', formData)
             .then((result) => {
+
                 this.setState( {imgSource: result.data.newImg.toString()});
                 // access results...
             })
