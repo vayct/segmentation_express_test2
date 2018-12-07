@@ -1,111 +1,33 @@
 const express = require('express');
 const bodyParser = require('body-parser');
-const crypto = require('crypto');
-const multer = require('multer');
-const path = require('path');
-const fs = require('fs-extra');
+const morgan = require('morgan');
+
+const cleanDir = require('./utilities/cleanDir');
+const colorsClassification = require('./routes/colorsClassification/colorsClassification.js');
+const edison = require('./routes/edison/edison.js');
 
 
-let storage = multer.diskStorage({
-    destination: function (req, file, cb) {
-        cb(null, 'client/public/tmp/')
-    },
-    filename: function (req, file, cb) {
-
-        let filename = file.originalname;
-        let fileExtension = filename.split(".")[1];
-        let nm = filename.split('.')[0];
-
-        //additional random bytes to make sure the name truly unique
-        crypto.randomBytes(8, function(err,raw) {
-
-            //filename . extension
-            //cb(null, filename)
-
-            //filename + date . extension
-            //cb(null, nm + '_' + Date.now() + "." + fileExtension);
-
-            //filename + date + random . extension
-            cb(null, nm + '__' + Date.now() + '__' + raw.toString('hex')+ "." + fileExtension);
-
-        });
-    }
-});
-
-const upload = multer({storage: storage});
+//create a scheduler and let it run for every hour to deleted file older than 1 hour
+cleanDir('./client/public/tmp', '0 0 */1 * * *', 1000 * 60 * 60);
 
 
 const app = express();
 const port = process.env.PORT || 5000;
-
-
 //to support JSON-encoded bodies
 app.use(bodyParser.json());
-
 //to support URL-encoded bodies
-app.use(bodyParser.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({extended: true}));
 
-app.get('/api/hello', (req, res) => {
-    res.send({ express: 'Hello From Express' });
-});
-app.post('/api/world', (req, res) => {
-    console.log(req.body);
-    res.send(
-        `I received your POST request. This is what you sent me: ${req.body.post}`,
-    );
-});
+//setting up logger
+app.use(morgan('dev'));
+
+app.use('/segmentation/colorsClassification', colorsClassification);
+app.use('/segmentation/edison', edison);
 
 
-app.get('/', (req,res) => {
-   res.sendFile('/index.html');
+let v = app.listen(port, () => {
+    console.log(`Listening on port ${port}`);
 });
 
-
-app.post('/', upload.single('selectedFile'), (req,res ) => {
-    console.log(req.file.filename);
-    console.log(req.body.description);
-
-
-    const {spawn} =require('child_process');
-    //let program ='python segmentation/testProgram/colorsClassification.py';
-    let program ='python segmentation/testProgram/v.py';
-    let inputPath = 'client/public/tmp/' + req.file.filename;
-
-    let result = spawn(program, [], {
-        shell: true
-    });
-
-    result.stdout.on('data', (data) =>{
-        console.log('stdout: ' + data);
-    });
-
-    result.stderr.on('data', (data) => {
-            console.log(`stderr: ${data}`);
-    });
-
-
-
-    //Callback when the process finish
-    result.on('close', (code) => {
-        if (code !== 0) {
-            console.log('Exit with code' + code);
-        }
-
-        //TODO should send array of image resources
-        //res.send("FIle uploaded");
-        res.send({ newImg: './tmp/thisisfine.jpg'});
-
-        //delete the image in the tmp folder
-        fs.unlink('client/public/tmp/' + req.file.filename, (err) => {
-            if (err){
-                 console.log("failed to delete:" + err);
-            }else {
-                 console.log("delete the image:   ");
-             }
-         });
-    });
- //   res.redirect('/');
-});
-
-
-app.listen(port, () => console.log(`Listening on port ${port}`));
+v.setTimeout(9999999);
+v.timeout=9999999;

@@ -7,7 +7,13 @@ class UserForm extends Component {
         this.state = {
             description: '',
             selectedFile: '',
-            imgSource: './tmp/bearseat.png',
+            imgSource: 'bearseat.png',
+
+            spatialBandwidth: '1',
+            rangeBandwidth: '1',
+            minimumRegionArea: '1',
+
+
         };
     }
 
@@ -24,28 +30,68 @@ class UserForm extends Component {
         }
     };
 
-    onSubmit = (e) => {
+    submitColorsClassification = (e) => {
         e.preventDefault();
-        const { description, selectedFile } = this.state;
+        const { description,
+            selectedFile} = this.state;
         let formData = new FormData();
 
         formData.append('description', description);
+
         formData.append('selectedFile', selectedFile);
 
-        axios.post('/', formData)
+        axios.post('/segmentation/colorsClassification', formData)
             .then((result) => {
 
-                this.setState( {imgSource: result.data.newImg.toString()});
                 // access results...
+                let resultPath = result.data.segmentationResultDir.toString();
+                let resultImageOutput = resultPath + result.data.segmentationResultOutput;
+                this.setState( {imgSource: resultImageOutput});
+
+                //deleting the file
+                // axios.delete('/delete',{
+                //     data: {
+                //         imagePath: resultPath,
+                //         imageFiles: result.data.segmentationResultFiles
+                //     }});
             })
             //TODO get erros
             .catch((err) => {
             });
     };
 
+    submitEdison = (e) => {
+        e.preventDefault();
+        const { description, selectedFile, spatialBandwidth, rangeBandwidth, minimumRegionArea} = this.state;
+        let formData = new FormData();
+
+        formData.append('description', description);
+        formData.append('selectedFile', selectedFile);
+        formData.append('spatialBandwidth', spatialBandwidth);
+        formData.append('rangeBandwidth', rangeBandwidth);
+        formData.append('minimumRegionArea', minimumRegionArea);
+        axios.post('/segmentation/edison', formData)
+            .then((result) =>{
+
+                let resultPath = result.data.segmentationResultDir.toString();
+                let resultImageOutput = resultPath + result.data.segmentationResultOutput;
+                this.setState( {imgSource: resultImageOutput});
+
+                //deleting the file
+                // axios.delete('/delete',{
+                //     data: {
+                //         imagePath: resultPath,
+                //         imageFiles: result.data.segmentationResultFiles
+                //     }});
+            })
+            //TODO get erros
+            .catch((err) => {
+            });
+    };
     render() {
         return (
-            <form onSubmit={this.onSubmit}>
+            <div>
+            <form onSubmit={this.submitColorsClassification}>
                 <input
                     type="text"
                     name="description"
@@ -62,8 +108,47 @@ class UserForm extends Component {
                     name="images"
                     src ={this.state.imgSource}
                     onChange = {this.onChange}
+                    alt='hello world'
                 />
             </form>
+                <br/>
+                <br/>
+                <br/>
+                <div>
+                    <form onSubmit={this.submitEdison}>
+                        <input
+                            name="spatialBandwidth"
+                            type="number"
+                            min="0"
+                            max="20"
+                            defaultValue={this.state.spatialBandwidth}
+                            value={this.state.spatialBandwidth}
+                            onChange={this.onChange}
+                        />
+                        <input
+                            name="rangeBandwidth"
+                            type="number"
+                            min="0"
+                            max="20"
+                            defaultValue={this.state.rangeBandwidth}
+                            value={this.state.rangeBandwidth}
+                            onChange={this.onChange}
+                        />
+                        <input
+                            name="minimumRegionArea"
+                            type="number"
+                            min="0"
+                            max="50005000"
+                            defaultValue={this.state.minimumRegionArea}
+                            value={this.state.minimumRegionArea}
+                            onChange={this.onChange}
+                        />
+                        <button type="submit">EDISON Segmentation</button>
+                    </form>
+
+                </div>
+            </div>
+
         );
     }
 }

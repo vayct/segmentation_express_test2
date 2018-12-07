@@ -122,7 +122,7 @@ def check(argv):
 
         height, width = img.shape[:2]
         splitFilename = filename.split('.')
-        outputFilename = splitFilename[0] + '_output.' + splitFilename[1].lower()
+        outputFilename = splitFilename[0] + '_output.' + splitFilename[1]
         #check = cv.resize(img,None, fx = 0.9, fy = 0.9, interpolation = cv.INTER_LINEAR)
 
         #watershed
@@ -177,10 +177,10 @@ def check(argv):
                     textColor = get_color_name( textRGB )
                     shapeRGB = center[listLabel[3]][::-1]
                     shapeColor = get_color_name( shapeRGB )
-                    print(textColor)
-                    print(textRGB)
-                    print(shapeColor)
-                    print(shapeRGB)
+                    #print(textColor)
+                    #print(textRGB)
+                    #print(shapeColor)
+                    #print(shapeRGB)
 
                     condition = False
 
