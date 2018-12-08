@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b3b395d8-707d-4f18-82bd-3775240defb2" name="Default Changelist" comment="vvv">
+      <change afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/node_modules/.bin/acorn" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/node_modules/.bin/acorn.cmd" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/node_modules/.bin/ansi-html" afterDir="false" />
@@ -28380,17 +28381,18 @@
       <change afterPath="$PROJECT_DIR$/client/node_modules/yargs/locales/zh_TW.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/node_modules/yargs/package.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/client/node_modules/yargs/yargs.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/public/tmp/thisisfine.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/client/src/components/UserForm.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/public/default.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/client/src/opencv/opencv.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/client/public/tmp/thisisfine.jpg" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/client/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/react-scripts/template-typescript/public/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/react-scripts/template-typescript/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/react-scripts/template-typescript/public/manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/server.js" beforeDir="false" afterPath="$PROJECT_DIR$/server.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/segmentation/testProgram/v.py" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/react-scripts/template-typescript/src/App.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/react-scripts/template/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/react-scripts/template-typescript/src/App.test.tsx" afterDir="false" />
@@ -28398,7 +28400,6 @@
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/react-scripts/template-typescript/src/index.tsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/react-scripts/template-typescript/src/logo.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/serviceWorker.js" beforeDir="false" afterPath="$PROJECT_DIR$/client/node_modules/react-scripts/template/src/serviceWorker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/test.txt" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -28416,75 +28417,91 @@
     <session id="486281532">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="10" />
+          <entry key="project.closed" value="29" />
           <entry key="project.open.time.0" value="2" />
-          <entry key="project.open.time.1" value="1" />
-          <entry key="project.open.time.2" value="2" />
+          <entry key="project.open.time.1" value="3" />
+          <entry key="project.open.time.2" value="3" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="1" />
-          <entry key="project.open.time.6" value="5" />
-          <entry key="project.opened" value="12" />
+          <entry key="project.open.time.5" value="6" />
+          <entry key="project.open.time.6" value="14" />
+          <entry key="project.open.time.7" value="3" />
+          <entry key="project.open.time.9" value="1" />
+          <entry key="project.opened" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="JavaScript-modules-diagram/C:/Users/Jet/WebstormProjects/react_node" value="1" />
-          <entry key="css" value="12" />
+          <entry key="config" value="1" />
+          <entry key="cpp" value="2" />
+          <entry key="css" value="23" />
+          <entry key="eds" value="7" />
           <entry key="filters" value="1" />
-          <entry key="gitignore" value="4" />
+          <entry key="gitignore" value="7" />
           <entry key="gyp" value="1" />
           <entry key="gypi" value="1" />
-          <entry key="html" value="4" />
-          <entry key="ico" value="2" />
-          <entry key="jpg" value="3" />
-          <entry key="js" value="30" />
-          <entry key="json" value="26" />
-          <entry key="jsx" value="2" />
-          <entry key="lock" value="5" />
-          <entry key="md" value="5" />
-          <entry key="png" value="7" />
-          <entry key="py" value="4" />
-          <entry key="svg" value="5" />
+          <entry key="html" value="6" />
+          <entry key="ico" value="4" />
+          <entry key="jpg" value="17" />
+          <entry key="js" value="78" />
+          <entry key="js___jb_tmp___" value="1" />
+          <entry key="json" value="45" />
+          <entry key="jsx" value="16" />
+          <entry key="less" value="2" />
+          <entry key="lock" value="6" />
+          <entry key="md" value="8" />
+          <entry key="pgm" value="8" />
+          <entry key="png" value="28" />
+          <entry key="pnm" value="4" />
+          <entry key="ppm" value="14" />
+          <entry key="py" value="13" />
+          <entry key="svg" value="6" />
           <entry key="ts" value="1" />
-          <entry key="txt" value="2" />
+          <entry key="txt" value="3" />
           <entry key="vcxproj" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="12" />
-          <entry key="HTML" value="4" />
-          <entry key="Image" value="12" />
-          <entry key="JSON" value="26" />
-          <entry key="JSX Harmony" value="2" />
-          <entry key="JavaScript" value="30" />
-          <entry key="Markdown" value="5" />
-          <entry key="PLAIN_TEXT" value="14" />
-          <entry key="SVG" value="5" />
+          <entry key="C++" value="2" />
+          <entry key="CSS" value="23" />
+          <entry key="HTML" value="6" />
+          <entry key="Image" value="75" />
+          <entry key="JSON" value="45" />
+          <entry key="JSX Harmony" value="16" />
+          <entry key="JavaScript" value="78" />
+          <entry key="Less" value="2" />
+          <entry key="Markdown" value="8" />
+          <entry key="PLAIN_TEXT" value="36" />
+          <entry key="SVG" value="6" />
           <entry key="TypeScript" value="1" />
           <entry key="UML" value="1" />
-          <entry key="yarn.lock" value="5" />
+          <entry key="yarn.lock" value="6" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="25" />
+          <entry key="css" value="31" />
           <entry key="gitignore" value="44" />
           <entry key="gyp" value="72" />
-          <entry key="js" value="4895" />
-          <entry key="json" value="107" />
-          <entry key="jsx" value="784" />
-          <entry key="py" value="99" />
-          <entry key="txt" value="76" />
+          <entry key="html" value="55" />
+          <entry key="js" value="16934" />
+          <entry key="json" value="150" />
+          <entry key="jsx" value="2192" />
+          <entry key="md" value="9" />
+          <entry key="py" value="518" />
+          <entry key="txt" value="285" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="25" />
-          <entry key="JSON" value="107" />
-          <entry key="JSX Harmony" value="784" />
-          <entry key="JavaScript" value="4895" />
-          <entry key="PLAIN_TEXT" value="291" />
+          <entry key="CSS" value="31" />
+          <entry key="HTML" value="55" />
+          <entry key="JSON" value="150" />
+          <entry key="JSX Harmony" value="2192" />
+          <entry key="JavaScript" value="16934" />
+          <entry key="Markdown" value="9" />
+          <entry key="PLAIN_TEXT" value="919" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -28497,10 +28514,23 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/server.js">
+        <entry file="file://$PROJECT_DIR$/client/src/components/UserForm.jsx">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="369">
-              <caret line="92" column="48" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
+            <state relative-caret-position="1564">
+              <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/client/src/App.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-322">
+              <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
+              <folding>
+                <element signature="e#0#46#0" expanded="true" />
+                <element signature="e#3597#7164#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -28508,46 +28538,65 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/client/public/index.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="372">
+              <caret line="38" selection-start-line="38" selection-end-line="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="414">
-              <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
+              <caret line="18" selection-start-line="18" selection-end-line="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/public/manifest.json">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="138">
-              <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        <entry file="file://$PROJECT_DIR$/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="460">
+                <caret line="20" selection-start-line="20" selection-end-line="20" />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/client/src/App.js">
+        <entry file="file://$PROJECT_DIR$/server.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="368">
-              <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="552">
+              <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/client/src/components/UserForm.jsx">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
-              <folding>
-                <element signature="e#0#41#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/client/package-lock.json">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -28561,15 +28610,37 @@
         <option value="$PROJECT_DIR$/segmentation/test.js" />
         <option value="$PROJECT_DIR$/segmentation/testProgram/build/config.gypi" />
         <option value="$PROJECT_DIR$/segmentation/testProgram/binding.gyp" />
-        <option value="$PROJECT_DIR$/segmentation/testProgram/colorsClassification.py" />
         <option value="$PROJECT_DIR$/segmentation/testProgram/v.py" />
-        <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/tmp/hello.txt" />
         <option value="$PROJECT_DIR$/client/src/components/Main.jsx" />
-        <option value="$PROJECT_DIR$/client/src/App.js" />
+        <option value="$PROJECT_DIR$/client/public/tmp/test.txt" />
+        <option value="$PROJECT_DIR$/segmentation/testProgram/colorsClassification.py" />
+        <option value="$PROJECT_DIR$/util/upload.js" />
+        <option value="$PROJECT_DIR$/route/colorsClassification/colorsClassification.js" />
+        <option value="$PROJECT_DIR$/route/cleanDir.js" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/routes/cleanDir.js" />
+        <option value="$PROJECT_DIR$/routes/colorsClassification/colorsClassification.js" />
+        <option value="$PROJECT_DIR$/routes/colorsClassification/colorsClassification.py" />
+        <option value="$PROJECT_DIR$/utilities/cleanDir.js" />
+        <option value="$PROJECT_DIR$/routes/edison/edison_source/vv.py" />
+        <option value="$PROJECT_DIR$/routes/edison/vv.py" />
+        <option value="$PROJECT_DIR$/routes/edison/mainEDISON.py" />
         <option value="$PROJECT_DIR$/server.js" />
+        <option value="$PROJECT_DIR$/routes/edison/edison.js" />
+        <option value="$PROJECT_DIR$/client/src/assests/mainPanel.css" />
+        <option value="$PROJECT_DIR$/client/src/assests/mainPanel.jsx" />
+        <option value="$PROJECT_DIR$/client/src/assets/mainPanel.jsx" />
+        <option value="$PROJECT_DIR$/client/src/assets/dashboardStyle.jsx" />
+        <option value="$PROJECT_DIR$/client/src/starter.html" />
+        <option value="$PROJECT_DIR$/client/src/index.js" />
         <option value="$PROJECT_DIR$/client/src/components/UserForm.jsx" />
+        <option value="$PROJECT_DIR$/client/src/assets/css/column.css" />
+        <option value="$PROJECT_DIR$/client/src/assets/js/popper.min.js" />
+        <option value="$PROJECT_DIR$/package.json" />
+        <option value="$PROJECT_DIR$/client/public/index.html" />
+        <option value="$PROJECT_DIR$/client/src/App.js" />
       </list>
     </option>
   </component>
@@ -28592,11 +28663,27 @@
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
+    <option name="x" value="812" />
+    <option name="width" value="1115" />
     <option name="height" value="1057" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State />
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>Angular</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -28624,13 +28711,6 @@
               <item name="react_node" type="b2602c69:ProjectViewProjectNode" />
               <item name="react_node" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
-              <item name="public" type="462c0819:PsiDirectoryNode" />
-              <item name="tmp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react_node" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react_node" type="462c0819:PsiDirectoryNode" />
-              <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -28638,7 +28718,17 @@
               <item name="react_node" type="462c0819:PsiDirectoryNode" />
               <item name="client" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="opencv" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_node" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_node" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react_node" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react_node" type="462c0819:PsiDirectoryNode" />
+              <item name="utilities" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -28648,9 +28738,11 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SearchEverywhereHistoryKey" value="tmp&#9;null&#9;null&#10;eslint&#9;FILE&#9;file://C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/.eslintrc.json" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="javascript.nodejs.core.library.configured.version" value="11.0.0" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../untitled3" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -28661,19 +28753,22 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
-    <property name="settings.editor.selected.configurable" value="MTConfigurable" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode.JavaScript" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\Jet\WebstormProjects\react_node\client\public\tmp" />
-      <recent name="C:\Users\Jet\WebstormProjects\react_node\segmentation\testProgram" />
-      <recent name="C:\Users\Jet\WebstormProjects\react_node\client" />
+      <recent name="C:\Users\Jet\WebstormProjects\react_node\client\public" />
+      <recent name="C:\Users\Jet\WebstormProjects\react_node\client\src\assets\css" />
+      <recent name="C:\Users\Jet\WebstormProjects\react_node\utilities" />
+      <recent name="C:\Users\Jet\WebstormProjects\react_node\route" />
+      <recent name="C:\Users\Jet\WebstormProjects\react_node\route\colorsClassification" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Jet\WebstormProjects\react_node\client\public\tmp" />
       <recent name="C:\Users\Jet\WebstormProjects\react_node\client\public" />
-      <recent name="C:\Users\Jet\WebstormProjects\react_node\tmp" />
-      <recent name="C:\Users\Jet\WebstormProjects\react_node\segmentation" />
+      <recent name="C:\Users\Jet\WebstormProjects\react_node\client\src\opencv" />
+      <recent name="C:\Users\Jet\WebstormProjects\react_node\client\src\assets\css" />
+      <recent name="C:\Users\Jet\WebstormProjects\react_node\client\src" />
+      <recent name="C:\Users\Jet\WebstormProjects\react_node\client\src\assets" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -28710,6 +28805,27 @@
       <workItem from="1542158740617" duration="11722000" />
       <workItem from="1542227119112" duration="5984000" />
       <workItem from="1542479285609" duration="9829000" />
+      <workItem from="1542584556345" duration="3061000" />
+      <workItem from="1542751581191" duration="13524000" />
+      <workItem from="1542777876375" duration="640000" />
+      <workItem from="1542814446839" duration="10149000" />
+      <workItem from="1542926546948" duration="3505000" />
+      <workItem from="1542930174241" duration="4642000" />
+      <workItem from="1543123195903" duration="1694000" />
+      <workItem from="1543292799169" duration="1415000" />
+      <workItem from="1543378257760" duration="2190000" />
+      <workItem from="1543548281307" duration="4979000" />
+      <workItem from="1543632392161" duration="1585000" />
+      <workItem from="1543897089708" duration="1210000" />
+      <workItem from="1543931830210" duration="9380000" />
+      <workItem from="1543956456012" duration="16568000" />
+      <workItem from="1543982911374" duration="1809000" />
+      <workItem from="1544058633067" duration="4116000" />
+      <workItem from="1544102180135" duration="3931000" />
+      <workItem from="1544150106062" duration="63000" />
+      <workItem from="1544150373480" duration="4809000" />
+      <workItem from="1544155805563" duration="3821000" />
+      <workItem from="1544218151537" duration="13140000" />
     </task>
     <task id="LOCAL-00001" summary="testing to see if works on linux">
       <created>1542160636540</created>
@@ -28732,11 +28848,46 @@
       <option name="project" value="LOCAL" />
       <updated>1542165938424</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="got react post method working">
+      <created>1542584667698</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1542584667698</updated>
+    </task>
+    <task id="LOCAL-00005" summary="got react post method working">
+      <created>1542584796226</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1542584796226</updated>
+    </task>
+    <task id="LOCAL-00006" summary="saving before adding session and redis">
+      <created>1542753418786</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1542753418786</updated>
+    </task>
+    <task id="LOCAL-00007" summary="tesing">
+      <created>1544159490184</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1544159490184</updated>
+    </task>
+    <task id="LOCAL-00008" summary="all the upgrade">
+      <created>1544159605490</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1544159605490</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="56186000" />
+    <option name="totallyTimeSpent" value="162417000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -28748,23 +28899,24 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <frame x="812" y="0" width="1115" height="1057" extended-state="0" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.27555323" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2181987" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32893288" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.5631808" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33223322" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32893288" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3278867" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="8" weight="0.32897604" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="10" visible="true" weight="0.6535948" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.32897604" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="10" sideWeight="0.49947312" visible="true" weight="0.2750275" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -28780,7 +28932,11 @@
     <MESSAGE value="testing to see if works on linux" />
     <MESSAGE value="fixed package.json" />
     <MESSAGE value="vvv" />
-    <option name="LAST_COMMIT_MESSAGE" value="vvv" />
+    <MESSAGE value="got react post method working" />
+    <MESSAGE value="saving before adding session and redis" />
+    <MESSAGE value="tesing" />
+    <MESSAGE value="all the upgrade" />
+    <option name="LAST_COMMIT_MESSAGE" value="all the upgrade" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -28794,92 +28950,64 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/client/build/static/js/1.2e247460.chunk.js" />
-    <entry file="file://$PROJECT_DIR$/client/build/static/js/main.1f83bf3a.chunk.js" />
-    <entry file="file://$PROJECT_DIR$/uploads/751bfb5ddb041bdd2cd60f6fc88ffb34.jpg" />
-    <entry file="file://$PROJECT_DIR$/uploads/aaa.jpg" />
-    <entry file="file://$PROJECT_DIR$/node_modules/concurrently/.eslintrc.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/AiFish__1542125831489__68b9893cbbbd77e8.png" />
-    <entry file="file://$PROJECT_DIR$/tmp/AiFish__1542127095421__8ab964a1d1fcc50f.png" />
-    <entry file="file://$PROJECT_DIR$/tmp/teriDerp__1542126884175__108014e591e86842.png" />
-    <entry file="file://$PROJECT_DIR$/segmentation/testProgram/build/config.gypi" />
-    <entry file="file://$PROJECT_DIR$/segmentation/testProgram/build/colorsClassification.vcxproj.filters" />
-    <entry file="file://$PROJECT_DIR$/segmentation/testProgram/build/colorsClassification.vcxproj" />
-    <entry file="file://$PROJECT_DIR$/segmentation/testProgram/binding.gyp" />
-    <entry file="file://$PROJECT_DIR$/segmentation/testProgram/colorsClassification.py">
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/sunordie__1543973640180__77ad1cb9a54673c0/sunordie__1543973640180__77ad1cb9a54673c0.jpg" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/aUApZmt__1543971621350__b32965c902da2a87.jpg" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/sunordie__1543973640180__77ad1cb9a54673c0/bndyimage.pgm" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/7QCIfv1__1543974165971__5e84d170c9487101/7QCIfv1__1543974165971__5e84d170c9487101.eds" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/7QCIfv1__1543974165971__5e84d170c9487101/7QCIfv1__1543974165971__5e84d170c9487101.png" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/7QCIfv1__1543974165971__5e84d170c9487101/7QCIfv1__1543974165971__5e84d170c9487101.ppm" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/7QCIfv1__1543974165971__5e84d170c9487101/7QCIfv1__1543974165971__5e84d170c9487101_output.png" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/7QCIfv1__1543974165971__5e84d170c9487101/bndyimage.pgm" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/7QCIfv1__1543974165971__5e84d170c9487101/filtimage.ppm" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/7QCIfv1__1543974165971__5e84d170c9487101/segmimage.pnm" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/kai-di-chen-short-hair-cprd__1543973589338__220a9958d3b24354/bndyimage.pgm" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/rxv09d7uerx11__1543976489397__47db0c7100acf5e8/bndyimage.pgm" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/rxv09d7uerx11__1543976489397__47db0c7100acf5e8/filtimage.ppm" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/rxv09d7uerx11__1543976489397__47db0c7100acf5e8/segmimage.pnm" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/rxv09d7uerx11__1543976489397__47db0c7100acf5e8/rxv09d7uerx11__1543976489397__47db0c7100acf5e8.jpg" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/rxv09d7uerx11__1543976489397__47db0c7100acf5e8/rxv09d7uerx11__1543976489397__47db0c7100acf5e8.ppm" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/rxv09d7uerx11__1543976489397__47db0c7100acf5e8/rxv09d7uerx11__1543976489397__47db0c7100acf5e8.eds" />
+    <entry file="file://$PROJECT_DIR$/client/public/tmp/kai-di-chen-short-hair-cprd__1543973589338__220a9958d3b24354/filtimage.ppm" />
+    <entry file="file://$PROJECT_DIR$/routes/edison/edison.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="370">
-          <caret line="232" selection-start-line="232" selection-end-line="232" />
+        <state relative-caret-position="644">
+          <caret line="28" column="4" selection-start-line="28" selection-start-column="4" selection-end-line="28" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/thisisfine__1542145259432__8bea0b5e4e641c07.jpg" />
-    <entry file="file://$PROJECT_DIR$/client/public/favicon.ico">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-552" />
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/assets/sidebarStyle.jsx" />
+    <entry file="file://$PROJECT_DIR$/client/src/assets/dashboardStyle.jsx" />
+    <entry file="file://$PROJECT_DIR$/client/src/assets/mainPanel.jsx" />
+    <entry file="file://$PROJECT_DIR$/client/src/assets/material-dashboard-react.css" />
     <entry file="file://$PROJECT_DIR$/client/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1242">
-          <caret line="135" selection-start-line="135" selection-end-line="135" />
+        <state>
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/package.json">
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap/dist/css/bootstrap.min.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="18" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        <state relative-caret-position="230">
+          <caret line="5" column="5105" selection-start-line="5" selection-start-column="5105" selection-end-line="5" selection-end-column="5105" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
+    <entry file="file://$PROJECT_DIR$/client/src/starter.html" />
+    <entry file="file://$PROJECT_DIR$/client/src/assets/css/style5.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="4" column="34" selection-start-line="4" selection-start-column="34" selection-end-line="4" selection-end-column="34" />
+        <state relative-caret-position="1564">
+          <caret line="68" column="9" selection-start-line="68" selection-start-column="9" selection-end-line="68" selection-end-column="9" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package-lock.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="483">
-          <caret line="27" column="32" selection-start-line="27" selection-start-column="32" selection-end-line="27" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor />
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/bearseat.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tmp/hello.txt" />
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="9" selection-start-line="16" selection-start-column="9" selection-end-line="16" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/index.css">
+    <entry file="file://$PROJECT_DIR$/client/src/App.css">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/segmentation/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="19" column="33" selection-start-line="19" selection-start-column="33" selection-end-line="19" selection-end-column="33" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/client/src/logo.svg">
+      <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/App.test.js">
       <provider selected="true" editor-type-id="text-editor">
@@ -28888,326 +29016,103 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/segmentation/testProgram/v.py">
+    <entry file="file://$PROJECT_DIR$/client/src/index.css">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/public/tmp/test.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/App.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="322">
-          <caret line="14" column="25" selection-start-line="14" selection-start-column="25" selection-end-line="14" selection-end-column="25" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/client/src/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="161">
-          <caret line="11" column="20" selection-start-line="11" selection-start-column="20" selection-end-line="11" selection-end-column="20" />
+        <state relative-caret-position="23">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/logo.svg">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/client/src/assets/src/theme.config" />
+    <entry file="file://$PROJECT_DIR$/client/src/assets/src/theme.less" />
+    <entry file="file://$PROJECT_DIR$/client/src/assets/src/semantic.less" />
+    <entry file="file://$PROJECT_DIR$/client/src/assets/gulpfile.js" />
+    <entry file="file://$PROJECT_DIR$/client/src/assets/css/column.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/client/public/tmp/bearseat.png">
-      <provider selected="true" editor-type-id="images" />
+    <entry file="file://$PROJECT_DIR$/client/src/assets/css/imgbox.css">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/yarn.lock">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/client/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="uml://JavaScript-modules-diagram/C:/Users/Jet/WebstormProjects/react_node">
-      <provider selected="true" editor-type-id="UmlEditorProvider">
-        <state>
-          <ID>JavaScript-modules-diagram</ID>
-          <OriginalElement>$PROJECT_DIR$</OriginalElement>
-          <nodes>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-scripts/template-typescript/src/App.css</node>
-            <node x="" y="">$PROJECT_DIR$/client/src/App.css</node>
-            <node x="" y="">$PROJECT_DIR$/client/src/App.js#App.css#88;C:/Users/Jet/WebstormProjects/react_node/client/src/App.js#Component#16;C:/Users/Jet/WebstormProjects/react_node/client/src/App.js#React#7;C:/Users/Jet/WebstormProjects/react_node/client/src/App.js#UserForm#49;</node>
-            <node x="" y="">$PROJECT_DIR$/client/src/App.test.js#App#68;C:/Users/Jet/WebstormProjects/react_node/client/src/App.test.js#React#7;C:/Users/Jet/WebstormProjects/react_node/client/src/App.test.js#ReactDOM#34;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-scripts/template-typescript/src/App.test.tsx#App#68;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-scripts/template-typescript/src/App.test.tsx#React#7;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-scripts/template-typescript/src/App.test.tsx#ReactDOM#34;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-scripts/template-typescript/src/App.tsx#App.css#73;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-scripts/template-typescript/src/App.tsx#Component#16;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-scripts/template-typescript/src/App.tsx#React#7;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-scripts/template-typescript/src/App.tsx#logo#49;</node>
-            <node x="" y="">$PROJECT_DIR$/client/src/components/UserForm.jsx#Component#16;C:/Users/Jet/WebstormProjects/react_node/client/src/components/UserForm.jsx#React#7;C:/Users/Jet/WebstormProjects/react_node/client/src/components/UserForm.jsx#axios#49;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/application.js#Router#274;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/application.js#View#485;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/application.js#compileETag#557;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/application.js#compileQueryParser#614;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/application.js#compileTrust#672;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/application.js#debug#432;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/application.js#deprecate#709;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/application.js#finalhandler#230;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/application.js#flatten#753;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/application.js#http#515;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/application.js#merge#793;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/application.js#methods#308;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/application.js#middleware#342;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/application.js#query#389;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/application.js#resolve#839;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/application.js#setPrototypeOf#868;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/array-flatten/array-flatten.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/util/buffer.js</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/prop-types/checkPropTypes.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/command.js#Rx#6;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/command.spec.js#Command#46;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/command.spec.js#EventEmitter#6;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/completion-listener.js#Rx#6;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/completion-listener.js#index.d.ts#74;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/completion-listener.spec.js#CompletionListener#133;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/completion-listener.spec.js#createFakeCommand#58;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/completion-listener.spec.js#index.d.ts#26;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/concurrently.js#Command#474;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/concurrently.js#CompletionListener#362;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/concurrently.js#ExpandNpmShortcut#211;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/concurrently.js#ExpandNpmWildcard#286;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/concurrently.js#StripQuotes#149;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/concurrently.js#_#40;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/concurrently.js#assert#6;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/concurrently.js#getSpawnOpts#424;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/concurrently.js#spawn#69;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/concurrently.js#treeKill#109;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/bin/concurrently.js#concurrently#129;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/bin/concurrently.js#defaults#84;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/bin/concurrently.js#fs#26;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/bin/concurrently.js#yargs#52;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/concurrently.spec.js#EventEmitter#6;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/concurrently.spec.js#concurrently#159;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/concurrently.spec.js#createFakeCommand#84;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/concurrently.spec.js#index.d.ts#60;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/bin/concurrently.spec.js#Rx#73;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/bin/concurrently.spec.js#_#44;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/bin/concurrently.spec.js#index.d.ts#119;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/bin/concurrently.spec.js#readline#6;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/bin/concurrently.spec.js#spawn#152;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/copy-sync/copy-sync.js#_buff#2532;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/copy-sync/copy-sync.js#fs#20;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/copy-sync/copy-sync.js#mkdirpSync#96;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/copy-sync/copy-sync.js#path#54;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/copy-sync/copy-sync.js#utimesSync#147;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/copy/copy.js#fs#20;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/copy/copy.js#mkdirp#92;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/copy/copy.js#path#54;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/copy/copy.js#pathExists#139;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/copy/copy.js#utimes#191;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/multer/lib/counter.js#EventEmitter#19;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/defaults.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/multer/storage/disk.js#crypto#77;C:/Users/Jet/WebstormProjects/react_node/node_modules/multer/storage/disk.js#fs#4;C:/Users/Jet/WebstormProjects/react_node/node_modules/multer/storage/disk.js#mkdirp#108;C:/Users/Jet/WebstormProjects/react_node/node_modules/multer/storage/disk.js#os#27;C:/Users/Jet/WebstormProjects/react_node/node_modules/multer/storage/disk.js#path#50;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/command-parser/expand-npm-shortcut.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/command-parser/expand-npm-shortcut.spec.js#ExpandNpmShortcut#6;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/command-parser/expand-npm-wildcard.js#_#6;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/command-parser/expand-npm-wildcard.js#readPkg#35;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/command-parser/expand-npm-wildcard.spec.js#ExpandNpmWildcard#6;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/express.js#EventEmitter#273;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/express.js#Route#389;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/express.js#Router#428;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/express.js#bodyParser#218;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/express.js#index.js#1584;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/express.js#mixin#309;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/express.js#proto#351;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/express.js#query.js#1536;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/express.js#req#462;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/express.js#res#494;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/flow-control/fixtures/fake-command.js#index.d.ts#129;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/fixtures/fake-command.js#jest-create-mock-instance#31;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/fixtures/fake-command.js#stream#90;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/multer/lib/file-appender.js#objectAssign#4;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/file.js#fs#96;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/file.js#mkdir#130;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/file.js#path#67;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/file.js#pathExists#178;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/file.js#u#24;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/get-spawn-opts.js#supportsColor#6;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/get-spawn-opts.spec.js#getSpawnOpts#6;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/graceful-fs/graceful-fs.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/xtend/immutable.js</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-scripts/template-typescript/src/index.css</node>
-            <node x="" y="">$PROJECT_DIR$/client/src/index.css</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/rxjs/testing/index.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/setprototypeof/index.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/chalk/types/index.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/rxjs/operators/index.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/rxjs/index.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/axios/index.d.ts</node>
-            <node x="" y="">Buffer;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/iconv-lite/lib/index.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/tree-kill/index.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/raw-body/index.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-scripts/template/public/index.html</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-scripts/template-typescript/public/index.html</node>
-            <node x="" y="">$PROJECT_DIR$/client/public/index.html</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/parseurl/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/cookie/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/content-disposition/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/merge-descriptors/index.js</node>
-            <node x="" y="">sign;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/yargs/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/supports-color/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/path-to-regexp/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fresh/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/debug/src/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/multer/index.js#MulterError#151;C:/Users/Jet/WebstormProjects/react_node/node_modules/multer/index.js#diskStorage#59;C:/Users/Jet/WebstormProjects/react_node/node_modules/multer/index.js#makeMiddleware#4;C:/Users/Jet/WebstormProjects/react_node/node_modules/multer/index.js#memoryStorage#103;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/append-field/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concat-stream/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/bytes/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/index.js#react-dom.development.js#1318;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/index.js#react-dom.production.min.js#1244;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/serve-static/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/vary/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/mkdirp/index.js</node>
-            <node x="" y="">mime;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/object-assign/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/range-parser/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/finalhandler/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/content-type/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/object-assign/index.js</node>
-            <node x="" y="">fromCallback;fromPromise;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/path-exists/index.js#fs#65;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/path-exists/index.js#pathExists#202;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/path-exists/index.js#u#23;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/copy-sync/index.js#copy-sync.js#45;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/copy-sync/index.js#copySync#35;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/index.js#InputHandler#6;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/index.js#KillOnSignal#72;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/index.js#KillOthers#139;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/index.js#LogError#201;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/index.js#LogExit#259;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/index.js#LogOutput#315;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/index.js#Logger#498;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/index.js#RestartProcess#375;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/index.js#concurrently#446;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/move-sync/index.js#buffer#235;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/move-sync/index.js#copySync#94;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/move-sync/index.js#fs#20;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/move-sync/index.js#mkdirpSync#197;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/move-sync/index.js#path#54;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/move-sync/index.js#removeSync#146;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/etag/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/remove/index.js#remove#118;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/remove/index.js#removeSync#139;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/remove/index.js#rimraf#67;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/remove/index.js#u#24;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/output/index.js#fs#67;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/output/index.js#mkdir#130;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/output/index.js#path#101;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/output/index.js#pathExists#178;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/output/index.js#u#24;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/index.js#mkdirp#199;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/mkdirs/index.js#mkdirs#164;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/mkdirs/index.js#mkdirsSync#174;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/mkdirs/index.js#u#23;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/depd/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/index.js#file#20;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/index.js#link#51;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/index.js#symlink#82;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/move/index.js#copy#137;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/move/index.js#fs#67;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/move/index.js#mkdirp#219;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/move/index.js#path#101;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/move/index.js#pathExists#266;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/move/index.js#remove#176;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/move/index.js#u#24;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/empty/index.js#fs#67;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/empty/index.js#mkdir#121;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/empty/index.js#path#92;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/empty/index.js#remove#156;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/empty/index.js#u#24;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/utils-merge/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/json/index.js#jsonFile#67;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/json/index.js#output-json-sync.js#177;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/json/index.js#output-json.js#125;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/json/index.js#u#24;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/fs/index.js#fs#198;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/fs/index.js#u#155;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/copy/index.js#copy#82;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/copy/index.js#copy.js#90;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/copy/index.js#u#24;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/index.js#fs#533;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/index.js#index.js#92;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/qs/lib/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/on-finished/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/express/node_modules/statuses/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/http-errors/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/escape-html/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/index.js#deprecate#156;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/index.js#json.js#2302;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/index.js#raw.js#2373;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/index.js#text.js#2444;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/index.js#urlencoded.js#2522;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/scheduler/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/proxy-addr/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react/index.js#react.development.js#149;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react/index.js#react.production.min.js#79;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/type-is/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/methods/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/router/index.js#Layer#262;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/router/index.js#Route#230;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/router/index.js#debug#364;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/router/index.js#deprecate#412;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/router/index.js#flatten#456;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/router/index.js#methods#294;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/router/index.js#mixin#328;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/router/index.js#parseUrl#496;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/router/index.js#setPrototypeOf#532;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/express/index.js#express.js#198;</node>
-            <node x="" y="">$PROJECT_DIR$/client/src/index.js#App#90;C:/Users/Jet/WebstormProjects/react_node/client/src/index.js#React#7;C:/Users/Jet/WebstormProjects/react_node/client/src/index.js#ReactDOM#34;C:/Users/Jet/WebstormProjects/react_node/client/src/index.js#index.css#61;C:/Users/Jet/WebstormProjects/react_node/client/src/index.js#serviceWorker#115;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/accepts/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/encodeurl/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/read-pkg/index.js</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-scripts/template-typescript/src/index.tsx#App#90;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-scripts/template-typescript/src/index.tsx#React#7;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-scripts/template-typescript/src/index.tsx#ReactDOM#34;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-scripts/template-typescript/src/index.tsx#index.css#61;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-scripts/template-typescript/src/index.tsx#serviceWorker#115;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/middleware/init.js#setPrototypeOf#230;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/flow-control/input-handler.js#Rx#6;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/input-handler.js#defaults#78;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/input-handler.js#index.d.ts#44;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/flow-control/input-handler.spec.js#EventEmitter#6;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/input-handler.spec.js#InputHandler#215;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/input-handler.spec.js#Logger#116;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/input-handler.spec.js#createFakeCommand#153;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/input-handler.spec.js#jest-create-mock-instance#71;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/json.js#bytes#190;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/json.js#contentType#219;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/json.js#createError#261;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/json.js#debug#302;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/json.js#read#351;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/json.js#typeis#381;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/json/jsonfile.js#jsonFile#67;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/json/jsonfile.js#u#24;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/flow-control/kill-on-signal.js#index.d.ts#16;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/flow-control/kill-on-signal.spec.js#EventEmitter#6;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/kill-on-signal.spec.js#KillOnSignal#109;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/kill-on-signal.spec.js#createFakeCommand#47;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/flow-control/kill-others.js#_#6;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/kill-others.js#index.d.ts#53;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/flow-control/kill-others.spec.js#KillOthers#175;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/kill-others.spec.js#Logger#76;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/kill-others.spec.js#createFakeCommand#113;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/kill-others.spec.js#jest-create-mock-instance#31;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/router/layer.js#debug#274;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/router/layer.js#pathRegexp#230;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/link.js#fs#96;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/link.js#mkdir#130;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/link.js#path#67;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/link.js#pathExists#178;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/link.js#u#24;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/lodash/lodash.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/flow-control/log-error.js#index.d.ts#15;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/flow-control/log-error.spec.js#LogError#112;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/log-error.spec.js#Logger#75;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/log-error.spec.js#createFakeCommand#153;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/log-error.spec.js#jest-create-mock-instance#31;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/flow-control/log-exit.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/flow-control/log-exit.spec.js#LogExit#112;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/log-exit.spec.js#Logger#75;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/log-exit.spec.js#createFakeCommand#151;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/log-exit.spec.js#jest-create-mock-instance#31;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/flow-control/log-output.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/flow-control/log-output.spec.js#LogOutput#112;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/log-output.spec.js#Logger#75;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/log-output.spec.js#createFakeCommand#155;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/log-output.spec.js#jest-create-mock-instance#31;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/logger.js#_#38;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/logger.js#chalk#6;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/logger.js#defaults#115;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/logger.js#formatDate#67;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/logger.spec.js#Logger#147;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/logger.spec.js#chalk#46;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/logger.spec.js#jest-create-mock-instance#103;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/logger.spec.js#stream#21;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-scripts/template-typescript/src/logo.svg</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/busboy/lib/main.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/multer/lib/make-middleware.js#Busboy#32;C:/Users/Jet/WebstormProjects/react_node/node_modules/multer/lib/make-middleware.js#Counter#176;C:/Users/Jet/WebstormProjects/react_node/node_modules/multer/lib/make-middleware.js#FileAppender#255;C:/Users/Jet/WebstormProjects/react_node/node_modules/multer/lib/make-middleware.js#MulterError#211;C:/Users/Jet/WebstormProjects/react_node/node_modules/multer/lib/make-middleware.js#appendField#133;C:/Users/Jet/WebstormProjects/react_node/node_modules/multer/lib/make-middleware.js#extend#63;C:/Users/Jet/WebstormProjects/react_node/node_modules/multer/lib/make-middleware.js#is#4;C:/Users/Jet/WebstormProjects/react_node/node_modules/multer/lib/make-middleware.js#onFinished#93;C:/Users/Jet/WebstormProjects/react_node/node_modules/multer/lib/make-middleware.js#removeUploadedFiles#301;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/multer/storage/memory.js#concat#4;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/mkdirs-sync.js#fs#20;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/mkdirs/mkdirs-sync.js#invalidWin32Path#102;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/mkdirs/mkdirs-sync.js#path#54;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/mkdirs.js#fs#20;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/mkdirs/mkdirs.js#invalidWin32Path#102;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/mkdirs/mkdirs.js#path#54;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/multer/lib/multer-error.js#util#4;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/json/output-json-sync.js#fs#20;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/json/output-json-sync.js#jsonFile#118;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/json/output-json-sync.js#mkdir#83;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/json/output-json-sync.js#path#54;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/json/output-json.js#jsonFile#140;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/json/output-json.js#mkdir#49;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/json/output-json.js#path#20;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/json/output-json.js#pathExists#97;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/profiling.js#react-dom.development.js#1317;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/profiling.js#react-dom.profiling.min.js#1244;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/middleware/query.js#merge#218;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/middleware/query.js#parseUrl#253;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/middleware/query.js#qs#289;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/raw.js#bytes#144;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/raw.js#debug#173;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/raw.js#read#221;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/raw.js#typeis#251;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-scripts/lib/react-app.d.ts#React#624;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/cjs/react-dom-server.browser.development.js#React#396;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom-server.browser.development.js#_assign#356;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom-server.browser.development.js#checkPropTypes#426;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/umd/react-dom-server.browser.development.js#index.js#393;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js#p#279;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom-server.browser.production.min.js#q#306;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/umd/react-dom-server.browser.production.min.js#index.js#361;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/cjs/react-dom-server.node.development.js#React#393;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom-server.node.development.js#_assign#353;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom-server.node.development.js#checkPropTypes#423;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom-server.node.development.js#stream#482;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#aa#322;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#p#276;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom-server.node.production.min.js#q#303;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/cjs/react-dom-test-utils.development.js#React#392;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom-test-utils.development.js#ReactDOM#422;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom-test-utils.development.js#_assign#352;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/umd/react-dom-test-utils.development.js#index.js#389;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js#g#275;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js#l#302;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom-test-utils.production.min.js#m#321;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/umd/react-dom-test-utils.production.min.js#index.js#357;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js#ReactDOM#370;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.development.js#_assign#407;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.development.js#index.js#407;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js#k#293;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom-unstable-native-dependencies.production.min.js#l#316;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/umd/react-dom-unstable-native-dependencies.production.min.js#index.js#375;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/cjs/react-dom.development.js#React#341;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom.development.js#_assign#371;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom.development.js#checkPropTypes#411;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom.development.js#scheduler#470;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom.development.js#tracing#508;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/umd/react-dom.development.js#index.js#378;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/cjs/react-dom.production.min.js#aa#311;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom.production.min.js#da#358;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom.production.min.js#n#331;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/umd/react-dom.production.min.js#index.js#396;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/cjs/react-dom.profiling.min.js#aa#310;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom.profiling.min.js#n#330;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom.profiling.min.js#r#357;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/cjs/react-dom.profiling.min.js#w#380;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/umd/react-dom.profiling.min.js#index.js#394;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react/cjs/react.development.js#Component#56845;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react/cjs/react.development.js#_assign#337;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react/cjs/react.development.js#checkPropTypes#377;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react/cjs/react.production.min.js#k#260;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/read.js#createError#156;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/read.js#getBody#197;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/read.js#iconv#231;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/read.js#onFinished#265;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/read.js#zlib#305;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/multer/lib/remove-uploaded-files.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/request.js#accepts#230;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/request.js#deprecate#264;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/request.js#fresh#401;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/request.js#http#373;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/request.js#isIP#315;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/request.js#parse#473;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/request.js#parseRange#431;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/request.js#proxyaddr#506;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/request.js#typeis#340;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/response.js#Buffer#203;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#contentDisposition#237;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#cookie#836;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#deprecate#294;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#encodeUrl#338;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#escapeHtml#376;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#http#417;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#isAbsolute#458;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#merge#597;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#normalizeType#694;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#normalizeTypes#749;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#onFinished#493;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#path#534;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#send#868;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#setCharset#801;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#sign#640;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#statuses#562;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/response.js#vary#974;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/flow-control/restart-process.js#Rx#6;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/restart-process.js#defaults#134;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/restart-process.js#index.d.ts#100;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/flow-control/restart-process.spec.js#Logger#127;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/restart-process.spec.js#RestartProcess#226;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/restart-process.spec.js#createFakeCommand#164;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/restart-process.spec.js#index.d.ts#95;C:/Users/Jet/WebstormProjects/react_node/node_modules/concurrently/src/flow-control/restart-process.spec.js#jest-create-mock-instance#31;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/remove/rimraf.js#assert#83;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/remove/rimraf.js#fs#20;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/remove/rimraf.js#path#54;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/router/route.js#Layer#324;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/router/route.js#debug#230;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/router/route.js#flatten#284;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/router/route.js#methods#356;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/server.browser.js#react-dom-server.browser.development.js#168;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/server.browser.js#react-dom-server.browser.production.min.js#79;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/server.js#server.node.js#32;</node>
-            <node x="" y="">$PROJECT_DIR$/server.js#bodyParser#42;C:/Users/Jet/WebstormProjects/react_node/server.js#child_process#1878;C:/Users/Jet/WebstormProjects/react_node/server.js#crypto#85;C:/Users/Jet/WebstormProjects/react_node/server.js#express#6;C:/Users/Jet/WebstormProjects/react_node/server.js#fs#183;C:/Users/Jet/WebstormProjects/react_node/server.js#multer#119;C:/Users/Jet/WebstormProjects/react_node/server.js#path#153;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/server.node.js#react-dom-server.node.development.js#165;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/server.node.js#react-dom-server.node.production.min.js#79;</node>
-            <node x="" y="">$PROJECT_DIR$/client/src/serviceWorker.js</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-scripts/template-typescript/src/serviceWorker.ts</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/spawn-command/lib/spawn-command.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/command-parser/strip-quotes.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/concurrently/src/command-parser/strip-quotes.spec.js#StripQuotes#6;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink-paths.js#fs#49;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/symlink-paths.js#path#20;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/symlink-paths.js#pathExists#96;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink-type.js#fs#20;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/ensure/symlink.js#_mkdirs#130;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/symlink.js#_symlinkPaths#236;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/symlink.js#_symlinkType#390;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/symlink.js#fs#96;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/symlink.js#path#67;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/symlink.js#pathExists#549;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/ensure/symlink.js#u#24;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/test-utils.js#react-dom-test-utils.development.js#164;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/test-utils.js#react-dom-test-utils.production.min.js#79;</node>
-            <node x="" y="">$PROJECT_DIR$/segmentation/test.js#exec#330;C:/Users/Jet/WebstormProjects/react_node/segmentation/test.js#execFile#380;C:/Users/Jet/WebstormProjects/react_node/segmentation/test.js#express#4;C:/Users/Jet/WebstormProjects/react_node/segmentation/test.js#fs#124;C:/Users/Jet/WebstormProjects/react_node/segmentation/test.js#path#38;C:/Users/Jet/WebstormProjects/react_node/segmentation/test.js#temp#96;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/text.js#bytes#144;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/text.js#contentType#173;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/text.js#debug#215;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/text.js#read#264;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/text.js#typeis#294;</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/scheduler/tracing.js</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/date-fns/typings.d.ts</node>
-            <node x="" y="">$PROJECT_DIR$/client/node_modules/react-dom/unstable-native-dependencies.js#react-dom-unstable-native-dependencies.development.js#182;C:/Users/Jet/WebstormProjects/react_node/client/node_modules/react-dom/unstable-native-dependencies.js#react-dom-unstable-native-dependencies.production.min.js#79;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/body-parser/lib/types/urlencoded.js#bytes#190;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/urlencoded.js#contentType#219;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/urlencoded.js#createError#261;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/urlencoded.js#debug#302;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/urlencoded.js#deprecate#357;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/urlencoded.js#index.js#4569;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/urlencoded.js#querystring#4631;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/urlencoded.js#read#404;C:/Users/Jet/WebstormProjects/react_node/node_modules/body-parser/lib/types/urlencoded.js#typeis#434;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/utils.js#Buffer#207;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#compileETag#3224;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#compileQueryParser#3774;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#compileTrust#4424;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#contentDisposition#241;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#contentType#298;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#deprecate#341;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#etag#458;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#flatten#385;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#isAbsolute#1086;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#mime#432;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#normalizeType#1693;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#normalizeTypes#1971;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#proxyaddr#486;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#qs#525;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#querystring#549;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/utils.js#setCharset#5021;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/util/utimes.js#fs#20;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/util/utimes.js#os#54;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/util/utimes.js#path#79;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/util/utimes.js#utimesMillis#2335;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/util/utimes.js#utimesMillisSync#2351;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/express/lib/view.js#debug#230;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/view.js#fn#1551;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/view.js#fs#304;C:/Users/Jet/WebstormProjects/react_node/node_modules/express/lib/view.js#path#276;</node>
-            <node x="" y="">$PROJECT_DIR$/node_modules/fs-extra/lib/mkdirs/win32.js#invalidWin32Path#498;C:/Users/Jet/WebstormProjects/react_node/node_modules/fs-extra/lib/mkdirs/win32.js#path#20;</node>
-            <node x="" y="">%PUBLIC_URL%/favicon.ico</node>
-            <node x="" y="">%PUBLIC_URL%/manifest.json</node>
-            <node x="" y="">assert</node>
-            <node x="" y="">$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.es5.d.ts#exec#34002;execFile;</node>
-            <node x="" y="">crypto</node>
-            <node x="" y="">EventEmitter;</node>
-            <node x="" y="">fs</node>
-            <node x="" y="">http</node>
-            <node x="" y="">jest-create-mock-instance</node>
-            <node x="" y="">jsonfile</node>
-            <node x="" y="">__express;</node>
-            <node x="" y="">isIP;</node>
-            <node x="" y="">os</node>
-            <node x="" y="">resolve;</node>
-            <node x="" y="">querystring</node>
-            <node x="" y="">Component;</node>
-            <node x="" y="">react-dom</node>
-            <node x="" y="">readline</node>
-            <node x="" y="">stream</node>
-            <node x="" y="">temp</node>
-            <node x="" y="">util</node>
-            <node x="" y="">zlib</node>
-          </nodes>
-          <notes />
-          <edges />
-          <settings layout="Hierarchic Group" zoom="1.6789251844046365" x="3817.418708771276" y="587.6354981150965" />
-          <SelectedNodes />
-          <Categories>
-            <Category>All</Category>
-          </Categories>
-          <VISIBILITY>Details</VISIBILITY>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external/lib.dom.d.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="284">
-          <caret line="15457" column="13" selection-start-line="15457" selection-start-column="13" selection-end-line="15457" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/public/manifest.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/public/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="414">
-          <caret line="18" column="74" selection-start-line="18" selection-start-column="74" selection-end-line="18" selection-end-column="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/public/tmp/AiFish__1542493598339__f68ce0b2e88ab2aa.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/client/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="368">
-          <caret line="16" column="28" selection-start-line="16" selection-start-column="28" selection-end-line="16" selection-end-column="28" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="460">
+            <caret line="20" selection-start-line="20" selection-end-line="20" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="369">
-          <caret line="92" column="48" selection-start-line="92" selection-start-column="48" selection-end-line="92" selection-end-column="48" />
+        <state relative-caret-position="552">
+          <caret line="24" column="38" selection-start-line="24" selection-start-column="38" selection-end-line="24" selection-end-column="38" />
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/package-lock.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
     <entry file="file://$PROJECT_DIR$/client/src/components/UserForm.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        <state relative-caret-position="1564">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/bootstrap-material-design/dist/js/bootstrap-material-design.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="23">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/assets/js/popper.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56143">
+          <caret line="2441" column="34" selection-start-line="2441" selection-start-column="34" selection-end-line="2441" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="414">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/opencv/opencv.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/public/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="372">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/client/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-322">
+          <caret line="46" lean-forward="true" selection-start-line="46" selection-end-line="46" />
           <folding>
-            <element signature="e#0#41#0" expanded="true" />
+            <element signature="e#0#46#0" expanded="true" />
+            <element signature="e#3597#7164#0" />
           </folding>
         </state>
       </provider>

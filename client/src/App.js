@@ -1,32 +1,52 @@
+import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/js/bootstrap.bundle.min';
 import React, { Component } from 'react';
 import axios from 'axios';
 
-import UserForm from './components/UserForm';
+
+
 import './App.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/css/style5.css'
 import './assets/css/imgbox.css'
 import './assets/css/column.css'
 
 
+function loadScript(src, callback){
+    return new Promise(function (resolve, reject) {
+            let script = document.createElement('script');
+            script.type = 'text/javascript';
+            script.src = src;
+            script.addEventListener('load', function () {
+                resolve();
+            });
+            script.addEventListener('error', function (e) {
+                reject(e);
+            });
+            document.body.appendChild(script);
+        })
 
+};
 
 
 class App extends Component{
     constructor(props){
         super(props);
+        let cv;
         this.state = {
             active: false,
             selectedFile: '',
-            imgSource1: '',
-            imgSource2: '',
+            imgSource1: './default.png',
+            imgSource2: './default.png',
             spatialBandwidth: '1',
             rangeBandwidth: '1',
             minimumRegionArea: '1',
-            };
+        };
         this.toggleClass = this.toggleClass.bind(this)
 
     }
+
+
+
 
     onChange = (e) => {
         switch (e.target.name) {
@@ -42,9 +62,11 @@ class App extends Component{
         }
     };
 
-    getInitialState(){
-        return {"active": "false"};
-    }
+    onError = (e) =>{
+        e.target.onerror = null;
+        e.target.src = "./default.png";
+    };
+
     submitColorsClassification = (e) => {
         e.preventDefault();
         const { description,
@@ -117,42 +139,77 @@ class App extends Component{
                     </div>
 
                     <ul className="list-unstyled components">
-                        <p>EDISON Algorithm</p>
 
-                        <input
-                            type="file"
-                            name="selectedFile"
-                            onChange={this.onChange}
-                        />
-                        <input
-                            name="spatialBandwidth"
-                            type="number"
-                            min="0"
-                            max="20"
-                            defaultValue={this.state.spatialBandwidth}
-                            value={this.state.spatialBandwidth}
-                            onChange={this.onChange}
-                        />
-                        <input
-                            name="rangeBandwidth"
-                            type="number"
-                            min="0"
-                            max="20"
-                            defaultValue={this.state.rangeBandwidth}
-                            value={this.state.rangeBandwidth}
-                            onChange={this.onChange}
-                        />
-                        <input
-                            name="minimumRegionArea"
-                            type="number"
-                            min="0"
-                            max="50005000"
-                            defaultValue={this.state.minimumRegionArea}
-                            value={this.state.minimumRegionArea}
-                            onChange={this.onChange}
-                        />
-                        <button onClick={this.submitColorsClassification}>Submit Colors Classification</button>
-                        <button onClick={this.submitEdison}>Submit EDISON</button>
+
+
+                        <form>
+                            <div className="form-group">
+                                <input
+                                    type="file"
+                                    className="form-control-file"
+                                    name="selectedFile"
+                                    onChange={this.onChange}/>
+                            </div>
+                        </form>
+                        <p>EDISON Algorithm</p>
+                        <form>
+                            <div className="form-group">
+                                <label htmlFor="formGroupExampleInput">Spatial Bandwidth</label>
+                                <input
+                                    name="spatialBandwidth"
+                                    type="number"
+                                    min="1"
+                                    max="20"
+                                    defaultValue={this.state.spatialBandwidth}
+                                    value={this.state.spatialBandwidth}
+                                    onChange={this.onChange}
+                                    className="form-control"
+                                    placeholder="Value: 1 - 20"/>
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="formGroupExampleInput2">Range Bandwidth</label>
+                                <input
+                                    name="rangeBandwidth"
+                                    type="number"
+                                    min="1"
+                                    max="20"
+                                    defaultValue={this.state.rangeBandwidth}
+                                    value={this.state.rangeBandwidth}
+                                    onChange={this.onChange}
+                                    className="form-control"
+                                    placeholder="Value: 1 - 20"/>
+                            </div>
+                            <div className="form-group">
+                                <label htmlFor="formGroupExampleInput2">Another label</label>
+                                <input
+                                    name="minimumRegionArea"
+                                    type="number"
+                                    min="1"
+                                    max="50005000000"
+                                    defaultValue={this.state.minimumRegionArea}
+                                    value={this.state.minimumRegionArea}
+                                    onChange={this.onChange}
+                                    className="form-control"
+                                    id="formGroupExampleInput2"
+                                    placeholder="Value > 0"/>
+                            </div>
+                        </form>
+
+
+
+                        <button
+                            onClick={this.submitColorsClassification}
+                            type="button" className="btn btn-raised btn-primary btn-block">
+                            Colors Classification
+                        </button>
+                        <button
+                            onClick={this.submitEdison}
+                            type="button" className="btn btn-raised btn-info btn-block">
+                            EDISON
+                        </button>
+
+
+
 
 
                     </ul>
@@ -190,7 +247,7 @@ class App extends Component{
                         </div>
                     </nav>
                     <div class="row">
-                            <div class="column">
+                        <div class="column">
                             <div class="imgbox">
                                 <img
                                     class="center-fit"
@@ -198,25 +255,26 @@ class App extends Component{
                                     src={this.state.imgSource1}
                                     onChange={this.onChange}
                                     alt="main viewing panel"
+                                    onError={this.onError}
                                 />
                             </div>
-                            </div>
-                        <div class="column">
-                        <div className="imgbox">
-                            <img
-                                className="center-fit"
-                                name="mainImage2"
-                                src={this.state.imgSource2}
-                                onChange={this.onChange}
-                                alt="main viewing panel"
-                            />
                         </div>
+                        <div class="column">
+                            <div className="imgbox">
+                                <img
+                                    className="center-fit"
+                                    name="mainImage2"
+                                    src={this.state.imgSource2}
+                                    onChange={this.onChange}
+                                    alt="main viewing panel"
+                                    onError={this.onError}
+                                />
+                            </div>
                         </div>
                     </div>
 
 
-
-            </div>
+                </div>
 
             </div>
         )
