@@ -1,4 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Installing the project
+
+Note that in order to run the segmentation algorithms, OpenCV2 Python is required.
+
+In the project root directory, you can run:
+```
+npm install
+cd client
+npm install
+cd ../routes/edison/edison_source
+make all
+```
+
+
 
 ## Available Scripts
 
